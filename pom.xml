@@ -6,6 +6,12 @@
 	<artifactId>ip-geolocator</artifactId>
 	<version>1.0</version>
 	<description>Java class library for obtaining geolocation information of an IP address.</description>
+	<distributionManagement>
+  		<site>
+    		<id>shrek</id>
+    		<url>scp://@shrek.unideb.hu:2222/home/<eduID>/public_html/${project.artifactId}</url>
+ 		 </site>
+		</distributionManagement>
 	<developers>
 		<developer>
 			<id>jeszy</id>
